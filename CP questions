@@ -1,0 +1,82 @@
+Q1. Swap Two Numbers (Without Third Variable)
+a = 5, b = 7. Swap them using only + and -.
+
+a = 5
+b = 7
+a = a + b
+a = a - b
+b = a - b
+print(a , b)
+
+Q2. Cube of a Number
+n = 9. Print its cube (n × n × n).
+
+n = 9
+print(n**3)
+
+Q3. Average of Five Numbers
+a = 12, b = 15, c = 20, d = 18, e = 25. Print their average.
+
+a = 12
+b = 15
+c = 20
+d = 18
+e = 25
+avg = (a+b+c+d+e)//5
+print(avg)
+
+Q4. Convert Minutes to Hours and Minutes
+m = 130. Convert 130 minutes into hours and remaining minutes (130 → 2 hours 10 minutes).
+
+m=130
+a = m//60
+b = m%60
+print(f"{a} hours, {b} minutes")
+
+Q5. Total Marks and Percentage
+Marks in 5 subjects: 78, 85, 67, 90, 82. Find total marks and percentage (assume each subject is out of 100).
+
+total_marks = 78 + 85 + 67 + 90 + 82
+total_percentage = (total_marks/500)*100
+print(total_marks, total_percentage)
+
+Q6. Perimeter of a Square
+Side = 14. Perimeter = 4 × side.
+
+s = 14
+p = 4 * s
+print(p)
+
+Q7. Area of a Triangle (Using Formula)
+Base = 10, Height = 12. Area = (base × height) / 2.
+
+b = 10
+h = 12
+area = (b * h)/2
+print(area)
+
+Q8. Simple Calculator (Only Variables)
+a = 20, b = 4. Print: a+b, a-b, a*b, a/b.
+
+a = 20 
+b = 4
+c = a + b 
+d = a - b
+e = a * b
+f = a / b
+print(c,d,e,f)
+
+Q9. Convert Days to Weeks and Days
+d = 45. Convert 45 days → 6 weeks and 3 days.
+
+d = 45
+a = d//7
+b = d%7
+print(f"{a} weeks and {b} days")
+
+Q10. Compound Operation
+Let x = 5. Calculate: result = (x*x + 10) / (x - 3).
+
+x = 5 
+result = (x*x + 10) / (x - 3)
+print(result)
